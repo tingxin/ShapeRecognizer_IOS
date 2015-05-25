@@ -2,6 +2,7 @@
 Analyse if a points array can be a shape and correct it to a regular shape  
 
 How to use:
+
 [[TXShapeRecognizer sharedInstance] Analyze: points compleleted:^(TXShapeType result, NSArray *output) {
     switch (result) {
         case TXShapeStraight:
