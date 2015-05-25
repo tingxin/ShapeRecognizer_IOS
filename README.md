@@ -28,7 +28,8 @@ the parameter "points" is an array of CGPoint, in the return call back, the resu
     TXShapeStraight     
     TXShapeCirle        
     TXShapeRectangle    
-    TXShapeTriangle 
+    TXShapeTriangle
+    
 if the result is TXShapeOther, the output will be nil, if not, the output will also be an array of GCPoint, you can use this array to build a regular shape
 
 i will support more shape type in next version
